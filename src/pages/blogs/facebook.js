@@ -9,7 +9,6 @@ import m3 from '../../images/blogs/Fb/f5.jpeg'
 import m4 from '../../images/blogs/Fb/f4.png'
 import m5 from '../../images/blogs/Fb/f3.jpeg'
 import m6 from '../../images/blogs/Fb/f6.jpeg'
-import m7 from '../../images/blogs/Fb/f7.png'
 
 
 export default function Fb() {
