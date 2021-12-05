@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+.header {
+  margin-top: -10em;
+  padding: 5%;
+  background-color: #ffffff;
+  width: 83%;
+  text-align: center;
+}
+
+.title {
+  color: #66fcf1;
+  background-color: #0b0c10;
+  height: 30vh;
+  padding: 7%;
+  margin-top: -3em;
+  font-weight: 300;
+  font-size: 3em;
+}
+
+.quote {
+  text-align: center;
+  padding: 2% 0;
+  font-family: "Nothing You Could Do", cursive;
+  color: #0b0c10;
+  font-size: 2.4em;
+}
+
+.name {
+  color: rgb(74, 185, 148);
+  font-family: "Nothing You Could Do", cursive;
+}
+
+.listbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0% 2% 3%;
+}
+
+.listing {
+  list-style-type: none;
+  text-align: center;
+  padding: 2%;
+  transition: all 0.5s;
+}
+
+.listing:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.logo {
+  margin: 1em;
+}
+
+.schoolname {
+  color: rgb(74, 185, 148);
+}
+
+.schoolinfo {
+  padding: 0.2em;
+  font-size: 1.2em;
+}
+
+.line {
+  margin: 2em auto;
+  max-width: 35%;
+  text-align: center;
+  color: rgb(241, 241, 241);
+}
+
+.certi {
+  padding: 2% 5% 4%;
+  text-align: center;
+}
+
+.certinfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inks {
+  font-size: 1.3em;
+  padding: 2%;
+  list-style-type: none;
+}
+
+.links {
+  text-decoration: none;
+  color: #555555;
+  border-bottom: 1px dotted #555555;
+}
+
+.link:active {
+  color: #0b0c10;
+}
+
+.links:hover {
+  color: rgb(74, 185, 148);
+  border-bottom: 1px dotted rgb(74, 185, 148);
+}
+
+@media only screen and (max-width: 1220px) {
+  .header {
+    margin-top: -8em;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .title {
+    margin-top: -2em;
+  }
+  .listbox {
+    grid-template-columns: 1fr;
+  }
+  .certinfo {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    margin-top: -6em;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .title {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .header {
+    padding: 10% 0%;
+  }
+  .listbox {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    margin-top: -3em;
+  }
+}

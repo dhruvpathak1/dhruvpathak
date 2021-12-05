@@ -1,0 +1,117 @@
+.footerbox {
+  background-color: #66fcf1;
+  text-align: center;
+  padding: 5% 10%;
+  background-image: url("contact_bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacthead {
+  float: left;
+  padding-left: 6%;
+}
+
+.contactbox {
+  border: 1px solid #0b0c10;
+  background-color: #66fcf200;
+  color: #0b0c10;
+  margin: 1em;
+  padding: 1.5em;
+  width: 24.5%;
+  text-transform: capitalize;
+  outline: none;
+}
+
+.contacttxtbox {
+  width: 85%;
+  margin: 1em;
+  padding: 1.25em;
+  border: 1px solid #0b0c10;
+  background-color: #66fcf200;
+  height: 20vh;
+  resize: vertical;
+  outline: none;
+}
+
+.contactsubmit {
+  width: 88.5%;
+  margin: 1em;
+  padding: 1.5em;
+  font-size: 1em;
+  color: #66fcf1;
+  border: 1px solid #0b0c10;
+  background-color: #0b0c10;
+}
+
+.footerbar {
+  padding: 2% 5% 5%;
+}
+
+.footericonbox {
+  float: left;
+}
+
+.footercopyright {
+  float: right;
+  margin: 0.25em;
+  padding: 0.2em;
+}
+
+.footericons {
+  font-size: 1.5em;
+  border-radius: 0.1em;
+  margin: 0.2em;
+  color: #66fcf1;
+  padding: 0.25em;
+  background-color: #0b0c10;
+}
+
+.footericons:hover {
+  transform: scaleX(-1);
+}
+
+/* .cv {
+  background-color: #0b0c10;
+  padding: 3% 10%;
+  color: white;
+}
+
+.cvh1 {
+  font-size: 2.5em;
+  display: inline;
+}
+
+.cvbutton {
+  float: right;
+  padding: 1em;
+  border: none;
+  border-radius: 0;
+  background-color: white;
+  outline: none;
+  font-size: 1em;
+} */
+
+@media only screen and (max-width: 1100px) {
+  .contactbox {
+    width: 85%;
+  }
+
+  .contactsubmit {
+    width: 90%;
+  }
+
+  .footericonbox,
+  .footercopyright {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contacthead {
+    float: none;
+    text-align: center;
+    padding-top: 1em;
+  }
+}

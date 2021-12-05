@@ -14,9 +14,20 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@sideway/address": "^4.1.2",
     "gatsby": "^4.2.0",
+    "gatsby-plugin-sharp": "^4.2.0",
+    "gatsby-remark-images": "^6.2.0",
+    "gatsby-remark-responsive-iframe": "^5.2.0",
+    "gatsby-source-filesystem": "^4.2.0",
+    "gatsby-transformer-remark": "^5.2.0",
+    "joi": "^17.4.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-carousel-minimal": "^1.4.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "uuid": "^7.0.3"
   },
   "devDependencies": {
     "prettier": "^2.4.1"

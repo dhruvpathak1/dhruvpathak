@@ -1,0 +1,49 @@
+.name {
+  display: inline;
+}
+
+.navbox {
+  background-color: #0b0c10;
+  color: #66fcf1;
+  height: 15vh;
+  padding: 3em;
+}
+
+.nav {
+  display: inline;
+  font-weight: 400;
+  float: right;
+}
+
+.navlist {
+  display: inline;
+  padding: 1em 0.5em 0.5em;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #66fcf1;
+}
+
+.navlist:hover {
+  border-bottom: 1px solid #66fcf1;
+}
+
+.selectnav {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 650px) {
+  .name,
+  .navlist {
+    display: block;
+  }
+
+  .nav {
+    text-align: center;
+    float: none;
+  }
+
+  .navbox {
+    height: 45vh;
+  }
+}

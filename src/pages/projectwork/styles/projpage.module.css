@@ -1,0 +1,79 @@
+.header {
+  margin-top: -10em;
+  padding: 5% 5% 0%;
+  background-color: #ffffff;
+  width: 83%;
+}
+
+.title {
+  color: #66fcf1;
+  background-color: #0b0c10;
+  height: 30vh;
+  padding: 7%;
+  margin-top: -3em;
+  font-weight: 300;
+  font-size: 3em;
+}
+
+.jobbuttonlink {
+  margin: 1em;
+}
+
+.desp {
+  font-size: 1.2em;
+  color: #1f2833;
+  display: inline;
+}
+
+.exptitle {
+  font-size: 1.5em;
+  border-bottom: 4px solid #66fcf1;
+  font-weight: bold;
+  color: #1f2833;
+  display: inline;
+}
+
+.jobbutton {
+  padding: 1em;
+  font-size: 1.2em;
+  margin: 0em 0em 2em 0em;
+  border: none;
+  outline: none;
+  background-color: #66fcf1;
+  color: #0b0c10;
+}
+
+.unlist {
+  margin-top: 2em;
+  list-style: square;
+}
+
+.list {
+  font-size: 1.2em;
+  margin-left: 2em;
+  padding: 0.3em 0;
+}
+
+.info {
+  margin: 0em;
+  padding: 0 6% 4%;
+}
+
+.descpara {
+  margin: 1em 0;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1100px) {
+  .title {
+    margin-top: -2em;
+    padding-bottom: 2em;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .title {
+    text-align: center;
+    padding-top: 2em;
+  }
+}
