@@ -1,17 +1,19 @@
 import React from 'react'
 import * as styles from './styles/footer.module.css'
+import downloadFile from '../cv.pdf'
 import { BsGithub,BsInstagram,BsLinkedin } from 'react-icons/Bs'
 
 export default function Footer() {
     return (
       <div>
-        {/* <div className={styles.cv}>
-          <h1 className={styles.cvh1}>Do you want to know more?</h1>
-          <button className={styles.cvbutton}>Download CV</button>
-        </div> */}
-
       <div className={styles.footerbox}>
-        <div>
+          <h1 className={styles.cvh1}>Do you want to know more?</h1>
+          <a href={downloadFile} download>
+              <button className={styles.cvbutton}>
+                Download CV
+              </button>
+            </a>
+        <div className={styles.form}>
         <h1 className={styles.contacthead}>Contact Me</h1><br /><br />
           <form action="https://formspree.io/f/mbjqjgqp" method="POST">
             <input type="text" name="Name" className={styles.contactbox} placeholder="Name" required />

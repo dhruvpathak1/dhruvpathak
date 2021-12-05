@@ -66,6 +66,9 @@
   .infobox {
     grid-template-columns: 1fr 1fr;
   }
+  .headtitle {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 650px) {

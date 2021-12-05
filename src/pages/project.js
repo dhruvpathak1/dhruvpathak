@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import * as styles from '../styles/project.module.css'
+import sc from '../images/socialconclave.jpeg'
+import cg from '../images/cyberguest.jpg'
 
 export default function Projects() {
   return (
@@ -119,9 +121,20 @@ export default function Projects() {
               </div>
             </div>     
         </div>
-
-        <div className={styles.honors}>
+        <div className={styles.headerdiv}>
           <h1 className={styles.headerh1}>Honors</h1>
+        </div>
+          <div className={styles.honors}>
+            <div className={styles.block}>
+            <h2>Guest Speaker, MGM Dental College</h2>
+            <p className={styles.blockpara}>Guest lecture on ‘Cybersecurity: Understanding and Methodology’ at MGM Dental College and Hospital, Navi Mumbai. To celebrate the National Cybersecurity Awareness Month (NCSAM) and interact with over 100+ avid listeners.</p>
+            <img src={cg} alt="Cyber Guest Lecture" className={styles.blockimg} />
+          </div>
+          <div className={styles.block}>
+            <h2>1st Runner-Up, Social Conclave 2019</h2>
+            <p className={styles.blockpara}>An annual event held by NMIMS in collaboration with UNICEF,the event aims not only to spread awareness on social issues but also to act and bring a change in the society. Participants from all over the country compete in groups, in a 3 day competition which tests your report writing, presentation and debating skills.</p>
+            <img src={sc} alt="Social Conclave" className={styles.blockimg} />
+          </div>
         </div>
 
       </Layout>

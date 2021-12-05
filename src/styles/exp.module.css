@@ -27,7 +27,7 @@
 }
 
 .jobbox {
-  margin: 5em 8%;
+  margin: 3em 8% 1em;
 }
 
 .jobbox:nth-child(even) {
@@ -62,11 +62,11 @@
 }
 
 .topbox {
-  background-image: linear-gradient(to right, #66fcf1, white);
+  background-image: linear-gradient(to right, #66fcf1, white, white);
 }
 
 .topbox1 {
-  background-image: linear-gradient(to left, #66fcf1, white);
+  background-image: linear-gradient(to left, #66fcf1, white, white);
 }
 
 .jobinfo {

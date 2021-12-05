@@ -43,7 +43,7 @@ export default function Experience() {
               <h3>Automation Intern</h3>
             </div>
             <div className={styles.jobinfo}>
-              <p className={styles.para}>PBOPlus, a pioneer consulting firm in the field of business process management, offers services which include Process Consulting, Industrial Automation, Robotics, and IoT etc. Joining their leading Robotics and Automation department helped me gain industry expercience and it also gave me a proper introduction to Robotics and Automation.</p>
+              <p className={styles.para}>PBOPlus, a pioneer consulting firm in the field of business process management, offers services which include Process Consulting, Industrial Automation, Robotics, and IoT etc. Joining their leading Robotics and Automation department helped me gain industry experience and it also gave me a proper introduction to Robotics and Automation.</p>
               <br />
               <h4>May - June, 2021</h4>
               <Link to="../experiences/pboplus"><button className={styles.jobbutton}>Read More <AiOutlineArrowRight /></button></Link>

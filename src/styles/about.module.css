@@ -100,6 +100,22 @@
   border-bottom: 1px dotted rgb(74, 185, 148);
 }
 
+.books {
+  text-align: center;
+  padding: 2% 5% 4%;
+}
+
+.gridbook {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imgbook {
+  border: 5px solid #66fcf1;
+  width: 80%;
+  margin: 1em;
+}
+
 @media only screen and (max-width: 1220px) {
   .header {
     margin-top: -8em;
@@ -135,5 +151,13 @@
   }
   .header {
     margin-top: -3em;
+  }
+  .gridbook {
+    grid-template-columns: 1fr;
+  }
+  .imgbook {
+    width: 50%;
+    margin: 1em auto;
+    max-width: 100%;
   }
 }

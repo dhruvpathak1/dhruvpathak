@@ -75,4 +75,8 @@
   .header {
     padding: 10% 0%;
   }
+
+  .jobbutton {
+    margin-left: 1em;
+  }
 }

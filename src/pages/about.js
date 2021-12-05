@@ -15,6 +15,9 @@ import z10 from '../images/art/10.jpeg'
 import apj from '../images/apj.png'
 import nmims from '../images/nmims.png'
 import marys from '../images/marys.png'
+import b1 from '../images/books/b1.jpg'
+import b2 from '../images/books/b2.jpg'
+import b3 from '../images/books/b3.jpg'
 
 export default function About() {
   return (
@@ -99,6 +102,17 @@ export default function About() {
                 Letter of Recommendation from Colludera Innovations
               </li>
             </ul>
+        </div>
+
+        <hr className={styles.line} />
+
+        <div className={styles.books}>
+          <h1>Top 3 Books</h1>
+          <div className={styles.gridbook}>
+            <img src={b1} alt='Sapiens' className={styles.imgbook} />
+            <img src={b3} alt='Rich Dad Poor Dad' className={styles.imgbook} />
+            <img src={b2} alt='Pyschology of Money' className={styles.imgbook} />
+          </div>
         </div>
 
       </Layout>
