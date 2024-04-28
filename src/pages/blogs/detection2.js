@@ -18,17 +18,19 @@ import z12 from '../../images/blogs/object/z12.jpeg'
 import z13 from '../../images/blogs/object/z13.jpeg'
 import z14 from '../../images/blogs/object/z14.jpeg'
 import z15 from '../../images/blogs/object/z15.jpeg'
+import { Helmet } from 'react-helmet'
 
-export default function Tesla() {
+export default function Object() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Blogs | Object Detection " defer={false} />
         <div className={styles.title}>
           <p>Python (OpenCV)</p>         
         </div>  
         <div className={styles.header}>
           <Link to="/blog"><button className={styles.jobbutton}><AiOutlineArrowLeft /> Back</button></Link><br /><br />
-          <h1>Image Processing in Autonomous Cars - PART II</h1>
+          <h1 className={styles.jobtitle}>Image Processing in Autonomous Cars - PART II</h1>
         </div>
         <div className={styles.matter}>
           <p><strong>Object Detection (YOLO) Algorithm</strong></p>
@@ -40,7 +42,7 @@ export default function Tesla() {
           <p>Programming Language: Python</p>
           <p>Predefined Implementation: DarkNet</p>
           <p>Libraries: OpenCV, Numpy</p>
-          <p><a href="https://github.com/Vrushit7506/Object_Detection_YOLO)">GitHub: [Vrushit7506/Object_Detection_YOLO]</a></p>
+          <p><b><a href="https://github.com/Vrushit7506/Object_Detection_YOLO">GitHub: Vrushit7506/Object_Detection_YOLO</a></b></p>
           <hr />
           <p><strong>Why YOLO ?</strong></p>
           <p>Earlier detection frameworks looked at different parts of the image multiple times at different scales and repurposed image classification technique to detect objects. This approach is slow and inefficient. YOLO takes entirely different approach. It looks at the entire image only once and goes through the network once and detects all objects. It is very fast.</p>

@@ -2,12 +2,14 @@ import { graphql, Link } from 'gatsby'
 import React from 'react'
 import Layout from '../components/Layout'
 import * as styles from '../styles/blog.module.css'
+import { Helmet } from 'react-helmet'
 
 export default function Blog({ data }) {
   const blogs = data.allMarkdownRemark.nodes
   return (
     <div>
       <Layout>
+        <Helmet title=" Blogs " defer={false} />
         <div className={styles.title}>
           <p>Blogs</p>         
         </div>  

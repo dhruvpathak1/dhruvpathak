@@ -21,17 +21,19 @@ import m15 from '../../images/blogs/tesla/015.jpeg'
 import m16 from '../../images/blogs/tesla/016.jpeg'
 import m17 from '../../images/blogs/tesla/017.png'
 import m18 from '../../images/blogs/tesla/018.png'
+import { Helmet } from 'react-helmet'
 
 export default function Tesla() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Blogs | Tesla Electric Cars " defer={false} />
         <div className={styles.title}>
           <p>Science</p>         
         </div>  
         <div className={styles.header}>
           <Link to="/blog"><button className={styles.jobbutton}><AiOutlineArrowLeft /> Back</button></Link><br /><br />
-          <h1>Science behind Tesla&#39;s Electric Cars</h1>
+          <h1 className={styles.jobtitle}>Science behind Tesla&#39;s Electric Cars</h1>
         </div>
         <div className={styles.matter}>
           <p><strong>A 192 year history of electric cars...</strong></p>

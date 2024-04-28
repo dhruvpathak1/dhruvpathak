@@ -14,11 +14,13 @@ import z7 from '../../images/projects/pharma/7.png'
 import z8 from '../../images/projects/pharma/12.png'
 import z9 from '../../images/projects/pharma/11.png'
 import z10 from '../../images/projects/pharma/10.png'
+import { Helmet } from 'react-helmet'
 
 export default function Pharmacy() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Projects | Pharmacy DBMS " defer={false} />
         <div className={styles.title}>
           <p>Pharmacy Software</p>       
         </div>  

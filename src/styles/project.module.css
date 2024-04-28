@@ -8,7 +8,14 @@
 .headerh1 {
   color: #1f2833;
   display: inline;
-  border-bottom: 3px solid #66fcf1;
+  /* font-size: 1em; */
+}
+
+.line {
+  margin: 2em auto;
+  max-width: 35%;
+  text-align: center;
+  color: rgb(241, 241, 241);
 }
 
 .title {
@@ -81,6 +88,8 @@
 
 .blockpara {
   margin: 1em;
+  font-size: 1.2em;
+  padding: 2% 5%;
 }
 
 .blockimg {

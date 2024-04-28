@@ -7,11 +7,13 @@ import Gallery from '../../components/gallery';
 import z1 from '../../images/projects/detection/1.jpeg'
 import z2 from '../../images/projects/detection/2.jpeg'
 import z3 from '../../images/projects/detection/3.jpeg'
+import { Helmet } from 'react-helmet'
 
-export default function Lane() {
+export default function Projlane() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Projects | Lane Detection " defer={false} />
         <div className={styles.title}>
           <p>Dectection in GTA V</p>       
         </div>  
@@ -31,8 +33,8 @@ export default function Lane() {
         
         <div className={styles.info}>
           <ul className={styles.unlist}>
-            <li className={styles.list}><Link to='../blogs/detection1'>Lane Detection - Hough Transform</Link></li>
-            <li className={styles.list}><Link to='../blogs/detection2'>Object Detection - You Look Only Once</Link></li>
+            <li className={styles.list}><Link to = '../../blogs/detection1'>Lane Detection - Hough Transform</Link></li>
+            <li className={styles.list}><Link to = '../../blogs/detection2'>Object Detection - You Look Only Once</Link></li>
           </ul>
           </div>
 

@@ -9,17 +9,19 @@ import e3 from '../../images/blogs/email/e5.jpeg'
 import e4 from '../../images/blogs/email/e2.png'
 import e5 from '../../images/blogs/email/e6.png'
 import e6 from '../../images/blogs/email/e4.png'
+import { Helmet } from 'react-helmet'
 
 export default function Email() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Blogs | History of Email " defer={false} />
         <div className={styles.title}>
           <p>Technology</p>         
         </div>  
         <div className={styles.header}>
           <Link to="/blog"><button className={styles.jobbutton}><AiOutlineArrowLeft /> Back</button></Link><br /><br />
-          <h1>Email - How it happened</h1>
+          <h1 className={styles.jobtitle}>Email - How it happened</h1>
         </div>
         <div className={styles.matter}>
           <p><strong>Invention of Email...</strong></p>

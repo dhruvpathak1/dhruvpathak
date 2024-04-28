@@ -15,10 +15,16 @@
   font-size: 3em;
 }
 
+.line {
+  margin: 2em auto;
+  max-width: 35%;
+  text-align: center;
+  color: rgb(241, 241, 241);
+}
+
 .exptitle {
   color: #1f2833;
   display: inline;
-  border-bottom: 3px solid #66fcf1;
 }
 
 .work,
@@ -61,12 +67,10 @@
   color: #1f2833;
 }
 
-.topbox {
-  background-image: linear-gradient(to right, #66fcf1, white, white);
-}
-
+.topbox,
 .topbox1 {
-  background-image: linear-gradient(to left, #66fcf1, white, white);
+  background-image: linear-gradient(to bottom, #66fcf1, white);
+  background-color: #66fcf1;
 }
 
 .jobinfo {
@@ -109,5 +113,15 @@
   .title {
     text-align: center;
     padding-top: 2em;
+  }
+  .header {
+    margin-top: -6em;
+  }
+  .logoimg,
+  .logoimg1 {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 30%;
+    margin: 2em;
   }
 }

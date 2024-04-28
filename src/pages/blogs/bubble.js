@@ -8,18 +8,20 @@ import b2 from '../../images/blogs/bubble/b2.png'
 import b3 from '../../images/blogs/bubble/b3.jpeg'
 import b4 from '../../images/blogs/bubble/b4.jpeg'
 import b5 from '../../images/blogs/bubble/b5.webp'
+import { Helmet } from 'react-helmet'
 
 
-export default function StockMarket() {
+export default function Economic() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Blogs | Economic Bubbles " defer={false} />
         <div className={styles.title}>
           <p>Finance</p>         
         </div>  
         <div className={styles.header}>
           <Link to="/blog"><button className={styles.jobbutton}><AiOutlineArrowLeft /> Back</button></Link><br /><br />
-          <h1>First Economic Bubble of the World</h1>
+          <h1 className={styles.jobtitle}>First Economic Bubble of the World</h1>
         </div>
         <div className={styles.matter}>
             <p><strong>What is a bubble?</strong></p>

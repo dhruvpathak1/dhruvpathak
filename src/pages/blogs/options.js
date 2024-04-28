@@ -21,17 +21,19 @@ import m15 from '../../images/blogs/options/o15.png'
 import m16 from '../../images/blogs/options/o16.png'
 import m17 from '../../images/blogs/options/o17.png'
 import m18 from '../../images/blogs/options/o18.png'
+import { Helmet } from 'react-helmet'
 
 export default function Options() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Blogs | Put Options " defer={false} />
         <div className={styles.title}>
           <p>Python (Yahoo API)</p>         
         </div>  
         <div className={styles.header}>
           <Link to="/blog"><button className={styles.jobbutton}><AiOutlineArrowLeft /> Back</button></Link><br /><br />
-          <h1>Options Trading &amp; Put Options Code</h1>
+          <h1 className={styles.jobtitle}>Options Trading &amp; Put Options Code</h1>
         </div>
         <div className={styles.matter}>
           <p><strong>What are Stocks?</strong></p>
@@ -73,7 +75,7 @@ export default function Options() {
           <hr />
           <p>Programming Language: Python</p>
           <p>Libraries: Pprint, Datetime, Json, Math, Time, Schedule, Urllib, ToastNotifier</p>
-          <p>GitHub:  [dhruvpathak1/put_options_code](<a href="https://github.com/dhruvpathak1/options_api)">https://github.com/dhruvpathak1/options_api)</a></p>
+          <p><b><a href="https://github.com/dhruvpathak1/options_api">GitHub: dhruvpathak1/put_options_code</a></b></p>
           <hr />
           <p>This individual project aims to use Yahoo Finance API and filter out the required PUT Options that fit a validation criteria. A scheduler is added that will execute the code periodically after every hour.</p>
           <p>(The following output is for AAPL (Apple) stock, on 26th Nov, 2020)</p>
@@ -108,7 +110,7 @@ export default function Options() {
           <p><img src={m15} alt="s1" /><img src={m16} alt="s2" /><img src={m17} alt="s3" /><img src={m18} alt="s4" /></p>
           <hr />
           <p>References:</p>
-          <p>[1] and [2] [Stock Market Loss](<a href="https://www.stockmarketloss.com/practice/options/#:~:text=An%20option%20is%20a%20contract,of%20the%20particular%20underlying%20asset\).)">https://www.stockmarketloss.com/practice/options/#:~:text=An%20option%20is%20a%20contract,of%20the%20particular%20underlying%20asset\).)</a></p>
+          <p><a href="https://www.stockmarketloss.com/practice/options/#:~:text=An%20option%20is%20a%20contract,of%20the%20particular%20underlying%20asset\).)">[1] and [2] [Stock Market Loss]</a></p>
         </div>
       </Layout>
     </div>

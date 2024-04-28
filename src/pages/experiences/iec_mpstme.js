@@ -4,11 +4,13 @@ import Layout from '../../components/Layout'
 import * as styles from './styles/workexp.module.css'
 import { AiOutlineArrowLeft} from 'react-icons/ai'
 import inceptio from '../../images/inception.jpeg'
+import { Helmet } from 'react-helmet'
 
 export default function Iec() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Work | IEC " defer={false} />
         <div className={styles.title}>
           <p>IEC</p>         
         </div>  

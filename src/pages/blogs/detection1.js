@@ -28,17 +28,19 @@ import q22 from '../../images/blogs/lane/q22.png'
 import q23 from '../../images/blogs/lane/q23.png'
 import q24 from '../../images/blogs/lane/q24.png'
 import q25 from '../../images/blogs/lane/q25.png'
+import { Helmet } from 'react-helmet'
 
 export default function Lane() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Blogs | Lane Detection " defer={false} />
         <div className={styles.title}>
           <p>Python (OpenCV)</p>         
         </div>  
         <div className={styles.header}>
           <Link to="/blog"><button className={styles.jobbutton}><AiOutlineArrowLeft /> Back</button></Link><br /><br />
-          <h1>Image Processing in Autonomous Cars - PART I</h1>
+          <h1 className={styles.jobtitle}>Image Processing in Autonomous Cars - PART I</h1>
         </div>
         <div className={styles.matter}>
         <p><strong>What are Autonomous cars?</strong></p>
@@ -53,7 +55,7 @@ export default function Lane() {
         <hr />
         <p>Programming Language: Python</p>
         <p>Libraries: OpenCV, Numpy, Pyplot from Matplot Lib</p>
-        <p>GitHub: [dhruvpathak1/lane_detection](<a href="https://github.com/dhruvpathak1/lane_detection)">https://github.com/dhruvpathak1/lane_detection)</a></p>
+        <p><b><a href="https://github.com/dhruvpathak1/lane_detection">GitHub: dhruvpathak1/lane_detection</a></b></p>
         <hr />
         <p><strong>Sample 1:</strong></p>
         <p><img src={q4} alt="original" /></p>

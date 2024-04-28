@@ -4,11 +4,13 @@ import Layout from '../components/Layout'
 import * as styles from '../styles/project.module.css'
 import sc from '../images/socialconclave.jpeg'
 import cg from '../images/cyberguest.jpg'
+import { Helmet } from 'react-helmet'
 
 export default function Projects() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Projects " defer={false} />
         <div className={styles.title}>
           <p>Projects &amp; Honors</p>         
         </div>  
@@ -16,6 +18,22 @@ export default function Projects() {
           <h1 className={styles.headerh1}>Projects</h1>
         </div>
         <div className={styles.proj}>
+
+            <div>
+              <div className={styles.course}>
+                <div className={styles.coursepreview}>
+                  <h6>Raspberry Pi / Arduino Uno</h6>
+                  <h2 className={styles.courseh2}>UNMANNED ROVER</h2>
+                </div>
+                <div className={styles.courseinfo}>
+                  <h2>Python &amp; Firebase</h2>
+                  <br /><br />
+                  <a href="https://fyprover.netlify.app/" rel="noreferrer" className={styles.btn} target="_blank">Vist Website</a>
+                  <Link to='../projectwork/rover' className={styles.btn}>Read More</Link>
+                </div>
+              </div>
+            </div>
+
             <div>
               <div className={styles.course}>
                 <div className={styles.coursepreview}>
@@ -25,7 +43,7 @@ export default function Projects() {
                 <div className={styles.courseinfo}>
                   <h2>Bootstrap &amp; Firebase</h2>
                   <br /><br />
-                  <a href="https://interestment.web.app/" rel="noreferrer" className={styles.btn} target="_blank">Vist Website</a>
+                  <a href="https://interestment.netlify.app/" rel="noreferrer" className={styles.btn} target="_blank">Vist Website</a>
                   <Link to='../projectwork/interestment' className={styles.btn}>Read More</Link>
                 </div>
               </div>
@@ -96,16 +114,15 @@ export default function Projects() {
               <div className={styles.course}>
                 <div className={styles.coursepreview}>
                   <h6>Website</h6>
-                  <h2 className={styles.courseh2}>MITTAL MOTORS</h2>
+                  <h2 className={styles.courseh2}>DOCTORS PRESCIPTION PAD</h2>
                 </div>
                 <div className={styles.courseinfo}>
-                  <h2>Gatsby Js (Real World Project)</h2>
+                  <h2>HTML CSS JS (Real World Project)</h2>
                   <br /><br />
-                  <a href="http://mittalmotors.com/" rel="noreferrer" className={styles.btn} target="_blank">Vist Website</a>
+                  <a href="https://presciptiondoc.netlify.app/" rel="noreferrer" className={styles.btn} target="_blank">Vist Website</a>
                 </div>
               </div>
             </div>
-
 
             <div>
               <div className={styles.course}>
@@ -121,6 +138,9 @@ export default function Projects() {
               </div>
             </div>     
         </div>
+
+        <hr className={styles.line} />
+
         <div className={styles.headerdiv}>
           <h1 className={styles.headerh1}>Honors</h1>
         </div>

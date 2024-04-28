@@ -12,12 +12,14 @@ import i5 from '../../images/baud/5.png'
 import i6 from '../../images/baud/6.png'
 import i7 from '../../images/baud/7.png'
 import i8 from '../../images/baud/8.png'
+import { Helmet } from 'react-helmet'
 
 export default function Baud() {
 
   return (
     <div>
       <Layout>
+        <Helmet title=" Work | Baud Resources " defer={false} />
         <div className={styles.title}>
           <p>Baud Resources</p>         
         </div>  

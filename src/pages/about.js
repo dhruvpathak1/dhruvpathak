@@ -18,103 +18,183 @@ import marys from '../images/marys.png'
 import b1 from '../images/books/b1.jpg'
 import b2 from '../images/books/b2.jpg'
 import b3 from '../images/books/b3.jpg'
+import { Helmet } from 'react-helmet'
 
 export default function About() {
   return (
     <div>
       <Layout>
+        <Helmet title=" About " defer={false} />
         <div className={styles.title}>
-          <p>About</p>   
-        </div>  
+          <p>About</p>
+        </div>
         <div className={styles.header}>
           <h1>Education</h1>
         </div>
-        <div >
+        <div>
           <ul className={styles.listbox}>
             <li className={styles.listing}>
               <img className={styles.logo} src={nmims} alt="NMIMS" />
-              <h2 className={styles.schoolname}>Mukesh Patel School of Technology &amp; Management (MPSTME)</h2> 
-              <p className={styles.schoolinfo}>Bachelor in Technology Computer Science</p>
-              <p className={styles.schoolinfo}>Vile Parle, Mumbai | 2018-2022</p> 
-            </li>
-
-            <li className={styles.listing}>
-              <img className={styles.logo} src={apj} alt="Apeejay" />
-              <h2 className={styles.schoolname}>Apeejay School</h2>  
-              <p className={styles.schoolinfo}>Science</p>
-              <p className={styles.schoolinfo}>11th-12th</p>
-              <p className={styles.schoolinfo}>Nerul, Navi Mumbai | 2016-2018</p> 
-            </li>
-
-            <li className={styles.logo} className={styles.listing}>
-              <img className={styles.logo} src={marys} alt="Marys" />
-              <h2 className={styles.schoolname}>St. Marys I.C.S.E School</h2>  
-              <p className={styles.schoolinfo}>Computer Application</p>
-              <p className={styles.schoolinfo}>9th-10th</p>
-              <p className={styles.schoolinfo}>Koperkhairane, Navi Mumbai | 2003-2016</p> 
+              <h2 className={styles.schoolname}>
+                Mukesh Patel School of Technology &amp; Management (MPSTME)
+              </h2>
+              <p className={styles.schoolinfo}>
+                B.Tech Computer Engineering
+                <br></br><b>3.65/4 CGPA</b>
+              </p>
+              <p className={styles.schoolinfo}>
+                Mumbai | 2018-2022
+              </p>
             </li>
           </ul>
         </div>
 
         <hr className={styles.line} />
-         
-        <h1 className={styles.quote}>"Art is a poem without words." <span className={styles.name}>- Horace</span></h1>
 
-        <Gallery img1={z1} title1="Moonlight" img2={z2} title2="White Blanket" img3={z3} title3="Lighthouse" img9={z4} title9="Sea Spectrum" img5={z5} title5="Jungle Knights" img10={z6} title10="Universe within the Eye" img7={z7} title7="Milo and Garry" img4={z8} title4="Spring Days" img8={z9} title8="Faith" img6={z10} title6="Shipwreck Cove" />
+        <h1 className={styles.quote}>
+          "Art is a poem without words."{" "}
+          <span className={styles.name}>- Horace</span>
+        </h1>
+
+        <Gallery
+          img1={z1}
+          title1="Moonlight"
+          img2={z2}
+          title2="White Blanket"
+          img3={z3}
+          title3="Lighthouse"
+          img9={z4}
+          title9="Sea Spectrum"
+          img5={z5}
+          title5="Jungle Knights"
+          img10={z6}
+          title10="Universe within the Eye"
+          img7={z7}
+          title7="Milo and Garry"
+          img4={z8}
+          title4="Spring Days"
+          img8={z9}
+          title8="Faith"
+          img6={z10}
+          title6="Shipwreck Cove"
+        />
 
         <hr className={styles.line} />
 
         <div className={styles.certi}>
-          <h1>Certificates</h1>
+          <h1 className={styles.certih1}>Publications</h1>
           <br />
-            <ul className={styles.certinfo}>
-                  <li className={styles.inks}>
-                    <a target="_blank" className={styles.links} href="https://www.coursera.org/account/accomplishments/certificate/6AR2HDQKLXU4" rel="noreferrer">
-                      Introduction to HTML 5
-                    </a>
-                  </li>
-                  <li className={styles.inks}>
-                    <a target="_blank" className={styles.links} href="https://www.coursera.org/account/accomplishments/certificate/WR8JW3DPWQAH" rel="noreferrer">
-                      Introduction to CSS, Coursera
-                    </a>
-                  </li>
-                  <li className={styles.inks}>
-                    <a target="_blank" className={styles.links} href="https://www.coursera.org/account/accomplishments/certificate/9M94M74VKS97" rel="noreferrer">
-                      Interactivity with JavaScript, Coursera
-                    </a>
-                  </li>
-                  <li className={styles.inks}>
-                    <a target="_blank" className={styles.links} href="https://www.coursera.org/account/accomplishments/certificate/YK82WH4XKRUX" rel="noreferrer">
-                      Advanced Styling with Responsive Design, Coursera
-                    </a>
-                  </li>
-                  <li className={styles.inks}>
-                    <a target="_blank" className={styles.links} href="https://www.coursera.org/account/accomplishments/certificate/H6Y67VPX7BLR" rel="noreferrer">
-                      Web Design for Everybody Capstone, Coursera
-                    </a>
-                  </li>
-              <li className={styles.inks}>
-                <a target="_blank" className={styles.links} href="https://www.coursera.org/account/accomplishments/certificate/NTP8KPFC5WW4" rel="noreferrer">
-                  Front-End Web UI Frameworks and Tools, Coursera: Bootstrap 4
-                </a>
-              </li>
-              <li className={styles.inks}>
-                Letter of Recommendation from Colludera Innovations
-              </li>
-            </ul>
+          <ul className={styles.certinfo}>
+            <li className={styles.inks}>
+              <a
+                target="_blank"
+                className={styles.links}
+                href="https://pubs.aip.org/aip/acp/article-abstract/2705/1/040004/2897035/A-comprehensive-survey-on-AIoT-integrated-smart?redirectedFrom=fulltext"
+                rel="noreferrer"
+              >
+                A Comprehensive Survey On AIoT Integrated Smart Health Cities.
+              </a>
+            </li>
+            <li className={styles.inks}>
+              <a
+                target="_blank"
+                className={styles.links}
+                href="https://annalsofdentalspecialty.net.in/article/role-of-various-stakeholders-in-application-of-artificial-intelligence-to-forensic-odontology-a-pot-bdso2dkvssoeqgv"
+                rel="noreferrer"
+              >
+              Role Of Various Stakeholders in Application of Artificial Intelligence to Forensic Odontology A Potential Perspective.
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <hr className={styles.line} />
+
+        <div className={styles.certi}>
+          <h1 className={styles.certih1}>Certificates</h1>
+          <br />
+          <ul className={styles.certinfo}>
+            <li className={styles.inks}>
+              <a
+                target="_blank"
+                className={styles.links}
+                href="https://www.coursera.org/account/accomplishments/certificate/6AR2HDQKLXU4"
+                rel="noreferrer"
+              >
+                Introduction to HTML 5
+              </a>
+            </li>
+            <li className={styles.inks}>
+              <a
+                target="_blank"
+                className={styles.links}
+                href="https://www.coursera.org/account/accomplishments/certificate/WR8JW3DPWQAH"
+                rel="noreferrer"
+              >
+                Introduction to CSS, Coursera
+              </a>
+            </li>
+            <li className={styles.inks}>
+              <a
+                target="_blank"
+                className={styles.links}
+                href="https://www.coursera.org/account/accomplishments/certificate/9M94M74VKS97"
+                rel="noreferrer"
+              >
+                Interactivity with JavaScript, Coursera
+              </a>
+            </li>
+            <li className={styles.inks}>
+              <a
+                target="_blank"
+                className={styles.links}
+                href="https://www.coursera.org/account/accomplishments/certificate/YK82WH4XKRUX"
+                rel="noreferrer"
+              >
+                Advanced Styling with Responsive Design, Coursera
+              </a>
+            </li>
+            <li className={styles.inks}>
+              <a
+                target="_blank"
+                className={styles.links}
+                href="https://www.coursera.org/account/accomplishments/certificate/H6Y67VPX7BLR"
+                rel="noreferrer"
+              >
+                Web Design for Everybody Capstone, Coursera
+              </a>
+            </li>
+            <li className={styles.inks}>
+              <a
+                target="_blank"
+                className={styles.links}
+                href="https://www.coursera.org/account/accomplishments/certificate/NTP8KPFC5WW4"
+                rel="noreferrer"
+              >
+                Front-End Web UI Frameworks and Tools, Coursera: Bootstrap 4
+              </a>
+            </li>
+            <li className={styles.inks}>
+              Letter of Recommendation from Colludera Innovations
+            </li>
+          </ul>
         </div>
 
         <hr className={styles.line} />
 
         <div className={styles.books}>
-          <h1>Top 3 Books</h1>
+          <h1 className={styles.certih1}>Top 3 Books</h1>
+          <br />
           <div className={styles.gridbook}>
-            <img src={b1} alt='Sapiens' className={styles.imgbook} />
-            <img src={b3} alt='Rich Dad Poor Dad' className={styles.imgbook} />
-            <img src={b2} alt='Pyschology of Money' className={styles.imgbook} />
+            <img src={b1} alt="Sapiens" className={styles.imgbook} />
+            <img src={b3} alt="Rich Dad Poor Dad" className={styles.imgbook} />
+            <img
+              src={b2}
+              alt="Pyschology of Money"
+              className={styles.imgbook}
+            />
           </div>
         </div>
-
       </Layout>
     </div>
   )

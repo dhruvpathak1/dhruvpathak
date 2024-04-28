@@ -76,7 +76,8 @@
     padding: 10% 0%;
   }
 
-  .jobbutton {
+  .jobbutton,
+  .jobtitle {
     margin-left: 1em;
   }
 }

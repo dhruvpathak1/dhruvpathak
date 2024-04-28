@@ -8,17 +8,36 @@ import bewakoof from '../images/bewakoof.png'
 import ash from '../images/ash.png'
 import iec from '../images/iec.png'
 import { AiOutlineArrowRight} from 'react-icons/ai'
+import { Helmet } from 'react-helmet'
 
 export default function Experience() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Experience " defer={false} />
         <div className={styles.title}>
           <p>My Portfolio</p>         
         </div>  
         <div className={styles.header}>
-          <div className={styles.work}>
-          <h1 className={styles.exptitle}>Work Experiences</h1><br />
+        <div className={styles.work}>
+        <h1 className={styles.exptitle}>Work Experiences</h1><br />
+
+          <div className={styles.jobbox}>
+            <div className={styles.topbox}>
+              <h1>KPMG</h1>
+              <img src={ash} alt="ash" className={styles.logoimg}/>
+              <h3>Cyber Analyst</h3>
+            </div>
+            <div className={styles.jobinfo}>
+              <p className={styles.para}>Ash Initiative is a voice through which high school and university students aspire to contribute their bit towards the upliftment of India. Established in 2020, this organization runs digital campaigns, recycles fabric, gives employment, and aspires to make a change.</p>
+              <br />
+              <h4>June, 2022 - Present</h4>
+              <Link to="../experiences/ash"><button className={styles.jobbutton}>Read More <AiOutlineArrowRight /></button></Link>
+            </div>
+          </div>
+
+          <hr className={styles.line} /><br />
+          <h1 className={styles.exptitle}>Internship Experiences</h1><br />
 
           <div className={styles.jobbox}>
             <div className={styles.topbox1}>
@@ -64,7 +83,8 @@ export default function Experience() {
             </div>
           </div>
 
-          <h1 className={styles.exptitle}>Volunteering Experiences</h1><br />    
+        <hr className={styles.line} /><br />
+        <h1 className={styles.exptitle}>Extracurricular and Volunteering Experiences</h1><br />
 
           <div className={styles.jobbox}>
             <div className={styles.topbox}>
@@ -82,7 +102,7 @@ export default function Experience() {
 
           <div className={styles.jobbox}>
             <div className={styles.topbox1}>
-              <h1>IEC</h1>
+              <h1>Innovation &amp; Entrepreneurship Cell</h1>
               <img src={iec} alt="iec" className={styles.logoimg1}/>
               <h3>Business Development &amp; Marketing Executive</h3>
             </div>

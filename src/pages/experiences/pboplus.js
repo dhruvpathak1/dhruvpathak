@@ -14,11 +14,13 @@ import i7 from '../../images/pboplus/7.jpg'
 import i8 from '../../images/pboplus/8.jpg'
 import i9 from '../../images/pboplus/9.jpg'
 import i10 from '../../images/pboplus/10.jpg'
+import { Helmet } from 'react-helmet'
 
 export default function Pboplus() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Work | PBOPlus " defer={false} />
         <div className={styles.title}>
           <p>PBOPlus</p>         
         </div>  

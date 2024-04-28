@@ -3,11 +3,13 @@ import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import * as styles from './styles/projpage.module.css'
 import { AiOutlineArrowLeft} from 'react-icons/ai'
+import { Helmet } from 'react-helmet'
 
 export default function Interestment() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Projects | Interestment " defer={false} />
         <div className={styles.title}>
           <p>Interestment</p>       
         </div>  

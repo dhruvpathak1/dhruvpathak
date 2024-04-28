@@ -31,7 +31,7 @@ export default function Footer() {
             <a href="https://www.linkedin.com/in/dhruv-pathak-6ab0a916a/" target="_blank" rel="noreferrer"><BsLinkedin className={styles.footericons} /></a>
           </div> 
           <div className={styles.footercopyright}>
-            <h3>Copyright ©2021 All rights reserved | Made by Dhruv Pathak</h3>
+            <h3>Copyright ©2023 All rights reserved | Made by Dhruv Pathak</h3>
           </div>    
         </div>
     </div>

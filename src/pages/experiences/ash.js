@@ -7,11 +7,13 @@ import Gallery from '../../components/gallery';
 import i1 from '../../images/ash/1.jpeg'
 import i2 from '../../images/ash/2.png'
 import i3 from '../../images/ash/3.png'
+import { Helmet } from 'react-helmet'
 
 export default function Ash() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Work | Ash Initiative NGO " defer={false} />
         <div className={styles.title}>
           <p>Ash Initiative NGO</p>         
         </div>  

@@ -1,23 +1,32 @@
 import React from "react"
 import Layout from '../components/Layout'
 import * as styles from '../styles/index.module.css'
+import { Helmet } from 'react-helmet'
+import profile from '../images/profile.jpg'
 
 export default function Home() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Home " defer={false} />
         <div className={styles.title}>
           <h1 className={styles.titlename}>DHRUV PATHAK</h1>
           <h1 className={styles.titledesign}>Computer Engineer</h1>         
         </div>
         <div className={styles.header}>
+          <div className={styles.para}>
           <h1 className={styles.headtitle}>About</h1>
-          <p className={styles.matter}>I am a motivated engineering student with a knack for communication and leadership. I have a good coding base as well as expertise in digital marketing (Facebook). I've always been interested and active in technology, so I was encouraged to try engineering in Computer Science to expand my interests and keep abreast inside the digital bubble.
+          <p className={styles.matter}>I am a driven engineer with strong communication and leadership skills. I have a solid technical foundation as well as experience in digital marketing. I've always been interested in and involved in technology, so I was urged to pursue engineering in Computer Science to broaden my horizons and stay abreast inside the digital bubble. 
           <br />
-           As early as the age of 14, I was introduced to coding and algorithms. Since then, I've had that extra spark in me to question How? and Why? to everything, and to apply what I've learned in the classroom to real-world situations. Curiosity and a desire to learn more drew me into the world of finance and business. All of these inquiries have built a business acumen in me, keeping me interested in the world of finance and business.
+           I got introduced to coding and algorithms when I was 14 years old. Since then, I've had a burning desire to ask "How?" and "Why?" to everything, and to apply what I've learned in the classroom to real-world circumstances. Curiosity and a drive to know more pushed me into the world of finance and business. All of these questions have helped me develop a business sense and have kept me engaged in the world of finance and business.
           <br />
-          In my spare time, I like playing the guitar and drawing cartoons and sketches. I am a person who is driven by energy, curiosity, and a desire to learn and excel in whatever I set out to achieve. </p>
+          I enjoy playing the guitar and sketching cartoons and illustrations in my spare time. I am a person who is motivated by ambition, curiosity, and a desire to learn and succeed in anything I set out to do. </p>
+          </div>
+          <div className={styles.prof}>
+          <img src={profile} className={styles.profimg} alt="Profile" />
+          </div>
         </div> 
+        <br /><br />
         <div className={styles.info}>
           <h1 className={styles.headtitle}>Personal Information</h1>
           <div className={styles.infobox}>

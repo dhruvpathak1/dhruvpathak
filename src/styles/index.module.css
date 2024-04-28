@@ -19,6 +19,12 @@
   margin-top: 0em;
   padding: 5% 5% 0%;
   background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.prof {
+  text-align: center;
 }
 
 .matter {
@@ -77,5 +83,16 @@
   }
   .infobox {
     grid-template-columns: 1fr;
+  }
+  .header {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    margin: 1.5em;
+    text-align: center;
+  }
+  .para,
+  .profimg {
+    width: 95%;
   }
 }

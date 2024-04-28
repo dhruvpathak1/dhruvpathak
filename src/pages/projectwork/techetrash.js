@@ -3,11 +3,13 @@ import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import * as styles from './styles/projpage.module.css'
 import { AiOutlineArrowLeft} from 'react-icons/ai'
+import { Helmet } from 'react-helmet'
 
-export default function TecheTrash() {
+export default function Techetrash() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Projects | Tech-E Trash " defer={false} />
         <div className={styles.title}>
           <p>Tech-E Trash</p>       
         </div>  

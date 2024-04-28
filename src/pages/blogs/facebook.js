@@ -9,18 +9,20 @@ import m3 from '../../images/blogs/Fb/f5.jpeg'
 import m4 from '../../images/blogs/Fb/f4.png'
 import m5 from '../../images/blogs/Fb/f3.jpeg'
 import m6 from '../../images/blogs/Fb/f6.jpeg'
+import { Helmet } from 'react-helmet'
 
 
-export default function Fb() {
+export default function Facebook() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Blogs | Facebook Boycott " defer={false} />
         <div className={styles.title}>
           <p>Business</p>         
         </div>  
         <div className={styles.header}>
           <Link to="/blog"><button className={styles.jobbutton}><AiOutlineArrowLeft /> Back</button></Link><br /><br />
-          <h1>What is the Facebook Boycott?</h1>
+          <h1  className={styles.jobtitle}>What is the Facebook Boycott?</h1>
         </div>
         <div className={styles.matter}>
           <p><strong>Facebook today...</strong></p>

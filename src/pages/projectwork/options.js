@@ -3,11 +3,13 @@ import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import * as styles from './styles/projpage.module.css'
 import { AiOutlineArrowLeft} from 'react-icons/ai'
+import { Helmet } from 'react-helmet'
 
-export default function Options() {
+export default function Projoptions() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Projects | Put Options " defer={false} />
         <div className={styles.title}>
           <p>Put Options</p>       
         </div>  

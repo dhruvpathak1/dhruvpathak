@@ -3,11 +3,13 @@ import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import * as styles from './styles/workexp.module.css'
 import { AiOutlineArrowLeft} from 'react-icons/ai'
+import { Helmet } from 'react-helmet'
 
 export default function Bewakoof() {
   return (
     <div>
       <Layout>
+        <Helmet title=" Work | Bewakoof " defer={false} />
         <div className={styles.title}>
           <p>Bewakoof</p>       
         </div>  

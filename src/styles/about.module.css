@@ -6,6 +6,7 @@
   background-color: #ffffff;
   width: 83%;
   text-align: center;
+  color: #1f2833;
 }
 
 .title {
@@ -33,7 +34,7 @@
 
 .listbox {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   padding: 0% 2% 3%;
 }
 
@@ -44,10 +45,10 @@
   transition: all 0.5s;
 }
 
-.listing:hover {
+/* .listing:hover {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
   transform: scale(1.01);
-}
+} */
 
 .logo {
   margin: 1em;
@@ -77,6 +78,10 @@
 .certinfo {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.certih1 {
+  color: #1f2833;
 }
 
 .inks {
@@ -135,6 +140,12 @@
   .header {
     margin-top: -6em;
   }
+  .logo {
+    width: 40%;
+  }
+  .schoolname {
+    padding: 0 4%;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -143,14 +154,14 @@
     padding-top: 2em;
     padding-bottom: 2em;
   }
-  .header {
+  /* .header {
     padding: 10% 0%;
-  }
+  } */
   .listbox {
     grid-template-columns: 1fr;
   }
   .header {
-    margin-top: -3em;
+    margin-top: -4em;
   }
   .gridbook {
     grid-template-columns: 1fr;
