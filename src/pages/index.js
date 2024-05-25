@@ -30,14 +30,9 @@ export default function Home() {
         <div className={styles.info}>
           <h1 className={styles.headtitle}>Personal Information</h1>
           <div className={styles.infobox}>
-            <div className={styles.databox}><h3 className={styles.databoxh}>Phone: </h3><p className={styles.data}>9819875816</p></div>
-            <div className={styles.databox}><h3 className={styles.databoxh}>Email: </h3><p className={styles.data}>dhruvpathak12@gmail.com</p></div>
-            <div className={styles.databox}><h3 className={styles.databoxh}>Skype: </h3><p className={styles.data}>Dhruv Pathak</p></div>
+            <div className={styles.databox}><h3 className={styles.databoxh}>Email: </h3><p className={styles.data}>dhruvpathak2506@gmail.com</p></div>
             <div className={styles.databox}><h3 className={styles.databoxh}>Github: </h3><p className={styles.data}>dhruvpathak1</p></div>
             <div className={styles.databox}><h3 className={styles.databoxh}>Linkedin: </h3><p className={styles.data}>Dhruv Pathak</p></div>
-            <div className={styles.databox}><h3 className={styles.databoxh}>Instagram: </h3><p className={styles.data}>dhruv_._pathak</p></div>
-            <div className={styles.databox}><h3 className={styles.databoxh}>Location: </h3><p className={styles.data}>Navi Mumbai</p></div>
-            <div className={styles.databox}><h3 className={styles.databoxh}>Languages: </h3><p className={styles.data}>English, Hindi</p></div>
           </div>
         </div>
 

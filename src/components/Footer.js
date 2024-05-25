@@ -28,10 +28,10 @@ export default function Footer() {
           <div className={styles.footericonbox}>
             <a href="https://github.com/dhruvpathak1" target="_blank" rel="noreferrer"><BsGithub className={styles.footericons} /></a>
             <a href="https://www.instagram.com/dhruv_._pathak/" target="_blank" rel="noreferrer"><BsInstagram className={styles.footericons} /></a>
-            <a href="https://www.linkedin.com/in/dhruv-pathak-6ab0a916a/" target="_blank" rel="noreferrer"><BsLinkedin className={styles.footericons} /></a>
+            <a href="https://www.linkedin.com/in/dhruvpathak1/" target="_blank" rel="noreferrer"><BsLinkedin className={styles.footericons} /></a>
           </div> 
           <div className={styles.footercopyright}>
-            <h3>Copyright ©2023 All rights reserved | Made by Dhruv Pathak</h3>
+            <h3>Copyright ©2024 All rights reserved | Made by Dhruv Pathak</h3>
           </div>    
         </div>
     </div>

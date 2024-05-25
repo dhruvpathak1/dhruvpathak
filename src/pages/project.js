@@ -152,7 +152,7 @@ export default function Projects() {
           </div>
           <div className={styles.block}>
             <h2>1st Runner-Up, Social Conclave 2019</h2>
-            <p className={styles.blockpara}>An annual event held by NMIMS in collaboration with UNICEF,the event aims not only to spread awareness on social issues but also to act and bring a change in the society. Participants from all over the country compete in groups, in a 3 day competition which tests your report writing, presentation and debating skills.</p>
+            <p className={styles.blockpara}>An annual event held by NMIMS in collaboration with UNICEF, the event aims not only to spread awareness on social issues but also to act and bring a change in the society. Participants from all over the country compete in groups, in a 3 day competition which tests your report writing, presentation and debating skills.</p>
             <img src={sc} alt="Social Conclave" className={styles.blockimg} />
           </div>
         </div>
