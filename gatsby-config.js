@@ -1,5 +1,5 @@
 module.exports = {
-  
+  pathPrefix: "/dhruvpathak",
   plugins: [
     `gatsby-remark-responsive-iframe`,
     `gatsby-transformer-remark`,
